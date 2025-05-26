@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Calculator, Leaf } from "lucide-react";
+import { ArrowLeft, Calculator as CalculatorIcon, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -112,7 +112,7 @@ const Calculator = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Calculator className="h-6 w-6 mr-2 text-green-600" />
+                <CalculatorIcon className="h-6 w-6 mr-2 text-green-600" />
                 Calculate Your Impact
               </CardTitle>
               <CardDescription>
