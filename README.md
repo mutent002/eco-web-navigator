@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
 
-## Project info
+# EcoPortal - Sustainability Hub
 
-**URL**: https://lovable.dev/projects/ef30cef8-ba91-40f6-8f25-28bb0f1ae6f0
+A comprehensive web application focused on environmental sustainability and awareness.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Carbon Footprint Calculator**: Calculate your personal environmental impact
+- **Sustainability Quiz**: Test your knowledge about environmental topics
+- **Community Chat**: Connect with like-minded individuals about sustainability
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ef30cef8-ba91-40f6-8f25-28bb0f1ae6f0) and start prompting.
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Router
+- Shadcn/UI Components
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (version 16 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd eco-portal
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Building for Production
 
-**Use GitHub Codespaces**
+To create a production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+This project can be deployed to any static hosting service like:
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contributing
 
-## How can I deploy this project?
+Feel free to open issues and submit pull requests to improve the project.
 
-Simply open [Lovable](https://lovable.dev/projects/ef30cef8-ba91-40f6-8f25-28bb0f1ae6f0) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).
